@@ -12,4 +12,6 @@ public class OneTask  implements Tasklet {
         System.out.println("OneTask Executed sucessfully");
         return RepeatStatus.FINISHED;
     }
+
+
 }
